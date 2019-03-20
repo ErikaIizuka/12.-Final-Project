@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Temp in Japan</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <style>
+        body
+        {
+            max-width: 1180px;
+            width: 98%;
+            margin: 0px auto;
+            text-align: center;
+        }
+    </style>
+
+    <div class="container">
+      <h2>Temperature in Japan</h2>
+      <div id="result"></div>
+      <div class="form-select">
+        <img src="images/weather-forcast-man.png">
+        <form name="form">
+          <select name="city" type="text" id="city" width="100%">
+            <option value="選択してください" >Choose a prefecture in Japan!</option>
+            <option value="sapporo">Hokkaido</option>
+            <option value="aomori">Aomori</option>
+            <option value="morioka">Iwate</option>
+            <option value="sendai">Miyagi</option>
+            <option value="akita">Akita</option>
+            <option value="yamagata">Yamagata</option>
+            <option value="fukushima">Hukushima</option>
+            <option value="mito">Ibaraki</option>
+            <option value="utsunomiya">Tochigi</option>
+            <option value="maebashi">Gunma</option>
+            <option value="saitama">Saitama</option>
+            <option value="chiba">Chiba</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="yokohama">Kanagawa</option>
+            <option value="niigata">Niigata</option>
+            <option value="toyama">Toyama</option>
+            <option value="kanazawa">Ishikawa</option>
+            <option value="fukui">Fukui</option>
+            <option value="kofu">Yamanashi</option>
+            <option value="nagano">Nagano</option>
+            <option value="gifu">Gifu</option>
+            <option value="shizuoka">Shizuoka</option>
+            <option value="nagoya">Aichi</option>
+            <option value="tsu">Mie</option>
+            <option value="otsu">Shiga</option>
+            <option value="kyoto">Kyoto</option>
+            <option value="Osaka">Osaka</option>
+            <option value="kobe">Hyougo</option>
+            <option value="nara">Nara</option>
+            <option value="wakayama">Wakayama</option>
+            <option value="tottori">Tottori</option>
+            <option value="matsue">Shimane</option>
+            <option value="okayama">Okayama</option>
+            <option value="hiroshima">Hiroshima</option>
+            <option value="yamaguchi">Yamaguchi</option>
+            <option value="tokushima">Tokushima</option>
+            <option value="takamatsu">Kagawa</option>
+            <option value="matsuyama">Ehime</option>
+            <option value="kochi">Kouchi</option>
+            <option value="fukuoka">Fukuoka</option>
+            <option value="saga">Saga</option>
+            <option value="nagasaki">Nagasaki</option>
+            <option value="kumamoto">Kumamoto</option>
+            <option value="ooita">Ooita</option>
+            <option value="miyazaki">Miyazaki</option>
+            <option value="kagoshima">Kagoshima</option>
+            <option value="naha">Okinawa</option>
+          </select>
+          <button id="btn" type="button" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="javascript/index.js"></script>
+  </body>
+</html>
